@@ -1,0 +1,20 @@
+
+import socket
+import base64
+import ssl
+from config import emailAddress, emailPassword, smtpServer, smtpPort
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+
+os.mkdir("new_directory")
+os.mkdir("D:/new_directory") 
+
+config.py
+
+emailAddress = "example@gmail.com"
+emailPassword = "example-password"
+smtpServer = "smtp@gmail.com"
+smtpPort = 587
